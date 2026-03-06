@@ -2,6 +2,9 @@
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
+   "engines": {
+    "node": "24.x"
+  },
   "dependencies": {
     "@exodus/bytes": "^1.15.0",
     "@jridgewell/sourcemap-codec": "^1.5.5",
@@ -25,9 +28,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "engines": {
-  "node": "18.x"
-},
+
   "eslintConfig": {
     "extends": [
       "react-app",

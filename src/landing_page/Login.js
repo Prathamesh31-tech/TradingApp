@@ -17,13 +17,13 @@ function Login() {
     e.preventDefault();
 
     try {
-           await axios.post(
+      const response = await axios.post(
         "https://tradingapp-backend-5z66.onrender.com/login",
         form,
         { withCredentials: true },
       );
 
-      // Login successful
+      alert(`Login Successful ✅: ${response.data.message || "Welcome!"}`);
       window.location.href = "https://trading-app-dashboard-ten.vercel.app/";
     } catch (error) {
       // Backend se aaya hua message

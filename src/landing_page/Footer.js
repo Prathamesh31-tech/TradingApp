@@ -1,5 +1,6 @@
 import React from "react";
 import "./Footer.css";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -15,26 +16,26 @@ function Footer() {
 
           <div className="footer-links">
             <h4>Company</h4>
-            <a href="#">About</a>
-            <a href="#">Products</a>
-            <a href="#">Pricing</a>
-            <a href="#">Careers</a>
-            <a href="#">Press</a>
+            <Link to="/About">About</Link>
+            <Link to="/product">Products</Link>
+            <Link to="/pricing">Pricing</Link>
+            <Link to="/pricing">Careers</Link>
+            <Link to="/support">Press</Link>
           </div>
 
           <div className="footer-links">
             <h4>Support</h4>
-            <a href="#">Contact</a>
-            <a href="#">Support Portal</a>
-            <a href="#">Downloads</a>
-            <a href="#">Resources</a>
+            <Link to="/support">Contact</Link>
+            <Link to="/support">Support Portal</Link>
+            <Link to="/support">Downloads</Link>
+            <Link to="/support">Resources</Link>
           </div>
 
           <div className="footer-links">
             <h4>Account</h4>
-            <a href="#">Open Account</a>
-            <a href="#">Fund Transfer</a>
-            <a href="#">Trading Guide</a>
+            <Link to="/signup">Open Account</Link>
+            <Link to="/login">Fund Transfer</Link>
+            <Link to="/signup">Trading Guide</Link>
           </div>
         </div>
 
@@ -48,10 +49,10 @@ function Footer() {
 
         {/* Bottom Links */}
         <div className="footer-bottom">
-          <a href="#">Terms</a>
-          <a href="#">Privacy Policy</a>
-          <a href="#">Disclosure</a>
-          <a href="#">Investor Charter</a>
+          <Link to="/about">Terms</Link>
+          <Link to="/about">Privacy Policy</Link>
+          <Link to="/about">Disclosure</Link>
+          <Link to="/about">Investor Charter</Link>
         </div>
       </div>
     </footer>

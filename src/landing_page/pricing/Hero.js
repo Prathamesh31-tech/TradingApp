@@ -16,7 +16,10 @@ export default function Hero() {
       <div className="container mt-5">
         <div className="row text-center">
           <div className="col-md-4 col-12 pricing-feature p-4">
-            <img src="media/images/pricingEquity.svg" alt="image" />
+            <img
+              src="media/images/pricingEquity.svg"
+              alt="Pricing features illustration"
+            />
 
             <h3>Zero Delivery Charges</h3>
 
@@ -27,7 +30,10 @@ export default function Hero() {
           </div>
 
           <div className="col-md-4 col-12 pricing-feature p-4">
-            <img src="media/images/intradayTrades.svg" alt="image" />
+            <img
+              src="media/images/intradayTrades.svg"
+              alt="User benefit graphic"
+            />
 
             <h3>Low Intraday Fees</h3>
 
@@ -38,7 +44,10 @@ export default function Hero() {
           </div>
 
           <div className="col-md-4 col-12 pricing-feature p-4">
-            <img src="media/images/pricingEquity.svg" alt="image" />
+            <img
+              src="media/images/pricingEquity.svg"
+              alt="Hero banner showing platform features"
+            />
 
             <h3>Mutual Fund Investment</h3>
 

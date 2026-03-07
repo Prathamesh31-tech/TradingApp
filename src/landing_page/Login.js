@@ -17,11 +17,11 @@ function Login() {
     e.preventDefault();
 
     try {
-      await axios.post("http://localhost:3002/login", form, {
+      await axios.post("https://tradingapp-backend-5z66.onrender.com/login", form, {
         withCredentials: true,
       });
 
-      window.location.href = "http://localhost:3001";
+      window.location.href = "https://trading-app-dashboard-ten.vercel.app/";
     } catch (error) {
       alert("Login Failed ❌");
     }

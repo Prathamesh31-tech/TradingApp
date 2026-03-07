@@ -20,11 +20,14 @@ function Signup() {
     e.preventDefault();
 
     try {
-      await axios.post("https://tradingapp-backend-5z66.onrender.com/signup", form);
+      await axios.post(
+        "https://tradingapp-backend-5z66.onrender.com/signup",
+        form,
+      );
       alert("Signup successful 🚀");
       navigate("/login");
     } catch (error) {
-      alert("Signup failed ❌");
+      alert(error);
     }
   };
 

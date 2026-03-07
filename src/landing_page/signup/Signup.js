@@ -23,6 +23,10 @@ function Signup() {
       await axios.post(
         "https://tradingapp-backend-5z66.onrender.com/signup",
         form,
+        {
+          headers: { "Content-Type": "application/json" },
+          withCredentials: true,
+        },
       );
       alert("Signup successful 🚀");
       navigate("/login");

@@ -17,7 +17,7 @@ function Login() {
     e.preventDefault();
 
     try {
-      const response = await axios.post(
+           await axios.post(
         "https://tradingapp-backend-5z66.onrender.com/login",
         form,
         { withCredentials: true },

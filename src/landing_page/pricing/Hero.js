@@ -17,7 +17,7 @@ export default function Hero() {
         <div className="row text-center">
           <div className="col-md-4 col-12 pricing-feature p-4">
             <img
-              src="media/images/pricingEquity.svg"
+              src="media/images/pricing1.png"
               alt="Pricing features illustration"
             />
 
@@ -30,10 +30,7 @@ export default function Hero() {
           </div>
 
           <div className="col-md-4 col-12 pricing-feature p-4">
-            <img
-              src="media/images/intradayTrades.svg"
-              alt="User benefit graphic"
-            />
+            <img src="media/images/pricing2.png" alt="User benefit graphic" />
 
             <h3>Low Intraday Fees</h3>
 
@@ -45,7 +42,7 @@ export default function Hero() {
 
           <div className="col-md-4 col-12 pricing-feature p-4">
             <img
-              src="media/images/pricingEquity.svg"
+              src="media/images/pricing3.png"
               alt="Hero banner showing platform features"
             />
 

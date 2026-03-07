@@ -1,12 +1,9 @@
-/* MAIN PAGE */
 
 #pricingPage{
   background:#0f172a;
   color:#e5e7eb;
   min-height:100vh;
 }
-
-/* HERO */
 
 .pricing-hero{
   text-align:center;
@@ -23,8 +20,6 @@
   color:#cbd5f5;
 }
 
-/* FEATURES */
-
 .pricing-feature img{
   width:80px;
 }
@@ -39,8 +34,6 @@
   font-size:15px;
 }
 
-/* BROKERAGE */
-
 .brokerage-section{
   border-top:1px solid #334155;
   margin-top:60px;
@@ -53,8 +46,6 @@
 .brokerage-section ul{
   color:#cbd5f5;
 }
-
-/* MOBILE */
 
 @media(max-width:768px){
 

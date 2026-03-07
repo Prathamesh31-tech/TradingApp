@@ -1,4 +1,3 @@
-/* PAGE BACKGROUND */
 
 #mainAbout{
   background:#0f172a;
@@ -8,8 +7,6 @@
   color:#e5e7eb;
   min-height:100vh;
 }
-
-/* HERO SECTION */
 
 .hero-section{
   padding:70px 20px;
@@ -23,8 +20,6 @@
   line-height:1.6;
 }
 
-/* ABOUT CONTENT */
-
 .about-content{
   border-top:1px solid #ffffff;
   padding-top:50px;
@@ -37,8 +32,6 @@
   line-height:1.8;
 }
 
-/* TEAM SECTION */
-
 .team-section{
   border-top:1px solid #ffffff;
   margin-top:60px;
@@ -50,8 +43,6 @@
   padding-bottom: 20px;
 }
 
-/* TITLE FULL WIDTH */
-
 .team-title{
   grid-column:1 / -1;
   color:white;
@@ -59,8 +50,6 @@
   font-size:32px;
   margin-bottom:20px;
 }
-
-/* TEAM MEMBER CARD */
 
 .team-member{
   display:flex;
@@ -77,16 +66,12 @@
   transform:translateY(-4px);
 }
 
-/* IMAGE */
-
 .team-member img{
   width:110px;
   height:110px;
   border-radius:50%;
   object-fit:cover;
 }
-
-/* MEMBER INFO */
 
 .team-info h4{
   color:white;
@@ -106,8 +91,6 @@
   font-size:14px;
 }
 
-/* ---------- TABLET ---------- */
-
 @media (max-width:992px){
 
 .hero-title{
@@ -123,8 +106,6 @@
 }
 
 }
-
-/* ---------- MOBILE ---------- */
 
 @media (max-width:768px){
 
@@ -147,8 +128,6 @@
 }
 
 }
-
-/* ---------- SMALL MOBILE ---------- */
 
 @media (max-width:480px){
 

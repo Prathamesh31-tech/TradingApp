@@ -6,7 +6,6 @@ function Footer() {
   return (
     <footer className="footer">
       <div className="footer-container">
-        {/* Top Section */}
         <div className="footer-grid">
           <div className="footer-brand">
             <img src="media/images/logo.png" alt="logo" />
@@ -39,7 +38,6 @@ function Footer() {
           </div>
         </div>
 
-        {/* Disclaimer */}
         <div className="footer-disclaimer">
           <p>
             Investments in securities market are subject to market risks. Please
@@ -47,7 +45,6 @@ function Footer() {
           </p>
         </div>
 
-        {/* Bottom Links */}
         <div className="footer-bottom">
           <Link to="/about">Terms</Link>
           <Link to="/about">Privacy Policy</Link>

@@ -13,7 +13,7 @@ export default function Universe() {
       <div className="row mt-5">
         <div className="col-md-4 col-12 universe-card p-4">
           <img
-            src="media/images/homeHero.png"
+            src="media/images/img4.png"
             alt="Universe product illustration 1"
           />
           <p className="mt-3">
@@ -24,7 +24,7 @@ export default function Universe() {
 
         <div className="col-md-4 col-12 universe-card p-4">
           <img
-            src="media/images/analytics.png"
+            src="media/images/img1.png"
             alt="Universe product illustration 2"
           />
           <p className="mt-3">
@@ -35,7 +35,7 @@ export default function Universe() {
 
         <div className="col-md-4 col-12 universe-card p-4">
           <img
-            src="media/images/security.png"
+            src="media/images/imh6.png"
             alt="Universe product illustration 3"
           />
           <p className="mt-3">

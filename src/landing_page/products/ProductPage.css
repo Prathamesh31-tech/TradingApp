@@ -1,12 +1,9 @@
-/* MAIN PAGE */
 
 #productPage{
   background:#0f172a;
   color:#e5e7eb;
   padding-bottom:60px;
 }
-
-/* HERO */
 
 .product-hero{
   text-align:center;
@@ -21,8 +18,6 @@
 .product-hero p{
   color:#cbd5f5;
 }
-
-/* SECTIONS */
 
 .product-section{
   margin-top:80px;
@@ -41,9 +36,6 @@
   color:#cbd5f5;
 }
 
-
-/* UNIVERSE */
-
 .universe-section{
   margin-top:80px;
   text-align:center;
@@ -57,8 +49,6 @@
   color:#cbd5f5;
 }
 
-/* ---------- TABLET ---------- */
-
 @media (max-width:992px){
 
 .product-section{
@@ -66,8 +56,6 @@
 }
 
 }
-
-/* ---------- MOBILE ---------- */
 
 @media (max-width:768px){
 
@@ -84,8 +72,6 @@
 }
 
 }
-
-/* SMALL MOBILE */
 
 @media (max-width:480px){
 

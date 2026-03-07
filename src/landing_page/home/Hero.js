@@ -4,11 +4,7 @@ function Hero() {
   return (
     <div className="hero-section">
       <div className="hero-container">
-        <img
-          src="media/images/homeHero.png"
-          alt="trading"
-          className="hero-image"
-        />
+        <img src="media/images/img5.png" alt="trading" className="hero-image" />
 
         <h1 className="hero-title">Trade Smarter, Invest Better</h1>
 

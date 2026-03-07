@@ -3,7 +3,6 @@ import "./SupportPage.css";
 export default function SupportPage() {
   return (
     <section className="container-fluid support-section py-5">
-      {/* Title Section */}
       <div className="text-center mb-5">
         <h1 className="support-title">Support Center</h1>
         <p className="support-subtitle">

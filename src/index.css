@@ -17,8 +17,6 @@ code {
   margin-left: 40px;
 }
 
-
-
 .nav-hover {
   transition: 0.3s ease;
   font-weight: 500;
@@ -41,17 +39,14 @@ code {
   transform: scale(1.05);
 }
 
-/* Logo responsive */
 .navbar-logo{
   width:200px;
 }
 
-/* Desktop spacing */
 .nav-link{
   margin-left:40px;
 }
 
-/* Tablet */
 @media (max-width:992px){
 
   .nav-link{
@@ -65,7 +60,6 @@ code {
 
 }
 
-/* Mobile */
 @media (max-width:576px){
 
   .navbar-logo{
@@ -74,7 +68,6 @@ code {
 
 }
 
-/* Open Account Section */
 
 .open-account h1{
   font-size:40px;
@@ -85,8 +78,6 @@ code {
   color:#cbd5f5;
   margin-bottom:20px;
 }
-
-/* Button */
 
 .signup-btn{
   width:20%;
@@ -100,7 +91,6 @@ code {
   transform:scale(1.05);
 }
 
-/* ---------- Tablet ---------- */
 
 @media (max-width:992px){
 
@@ -114,7 +104,6 @@ code {
 
 }
 
-/* ---------- Mobile ---------- */
 
 @media (max-width:768px){
 
@@ -127,8 +116,6 @@ code {
 }
 
 }
-
-/* ---------- Small Mobile ---------- */
 
 @media (max-width:480px){
 

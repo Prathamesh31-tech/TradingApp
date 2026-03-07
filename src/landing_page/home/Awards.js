@@ -6,7 +6,7 @@ function Awards() {
       <div className="awards-grid">
         <div>
           <img
-            src="media/images/largestBroker.svg"
+            src="media/images/img1.png"
             className="awards-img"
             alt="Trading Platform"
           />
@@ -30,7 +30,6 @@ function Awards() {
 
             <ul>
               <li>Watchlist management</li>
-              <li>Secure transactions</li>
               <li>Easy order execution</li>
             </ul>
           </div>

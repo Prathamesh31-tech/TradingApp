@@ -1,7 +1,20 @@
-import React from "react";
+import React, { useRef } from "react";
 import { Link } from "react-router-dom";
 
 function Navbar() {
+  const navbarCollapse = useRef(null); // ref for the collapse div
+
+  const handleNavLinkClick = () => {
+    // Check if navbar is expanded
+    if (navbarCollapse.current.classList.contains("show")) {
+      // Use Bootstrap Collapse API to hide
+      const collapseInstance = window.bootstrap.Collapse.getInstance(
+        navbarCollapse.current,
+      );
+      if (collapseInstance) collapseInstance.hide();
+    }
+  };
+
   return (
     <nav
       className="navbar navbar-expand-lg navbar-dark fixed-top"
@@ -12,12 +25,14 @@ function Navbar() {
       }}
     >
       <div className="container">
-        {/* Logo */}
-        <Link className="navbar-brand d-flex align-items-center" to="/">
+        <Link
+          onClick={handleNavLinkClick}
+          className="navbar-brand d-flex align-items-center"
+          to="/"
+        >
           <img src="media/images/logo.png" alt="Logo" className="navbar-logo" />
         </Link>
 
-        {/* Mobile Toggle */}
         <button
           className="navbar-toggler"
           type="button"
@@ -27,42 +42,68 @@ function Navbar() {
           <span className="navbar-toggler-icon" />
         </button>
 
-        {/* Menu */}
-        <div className="collapse navbar-collapse" id="navbarContent">
+        <div
+          className="collapse navbar-collapse"
+          id="navbarContent"
+          ref={navbarCollapse}
+        >
           <ul className="navbar-nav ms-auto text-center">
             <li className="nav-item">
-              <Link className="nav-link nav-hover" to="/Signup">
+              <Link
+                className="nav-link nav-hover"
+                to="/Signup"
+                onClick={handleNavLinkClick}
+              >
                 Signup
               </Link>
             </li>
 
             <li className="nav-item">
-              <Link className="nav-link nav-hover" to="/About">
+              <Link
+                className="nav-link nav-hover"
+                to="/About"
+                onClick={handleNavLinkClick}
+              >
                 About
               </Link>
             </li>
 
             <li className="nav-item">
-              <Link className="nav-link nav-hover" to="/Product">
+              <Link
+                className="nav-link nav-hover"
+                to="/Product"
+                onClick={handleNavLinkClick}
+              >
                 Product
               </Link>
             </li>
 
             <li className="nav-item">
-              <Link className="nav-link nav-hover" to="/Pricing">
+              <Link
+                className="nav-link nav-hover"
+                to="/Pricing"
+                onClick={handleNavLinkClick}
+              >
                 Pricing
               </Link>
             </li>
 
             <li className="nav-item">
-              <Link className="nav-link nav-hover" to="/Support">
+              <Link
+                className="nav-link nav-hover"
+                to="/Support"
+                onClick={handleNavLinkClick}
+              >
                 Support
               </Link>
             </li>
 
-            {/* Login Button */}
             <li className="nav-item ms-lg-3 mt-3 mt-lg-0">
-              <Link className="btn btn-primary px-4" to="/Login">
+              <Link
+                className="btn btn-primary px-4"
+                to="/Login"
+                onClick={handleNavLinkClick}
+              >
                 Login
               </Link>
             </li>

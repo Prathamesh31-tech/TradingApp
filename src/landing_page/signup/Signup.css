@@ -1,4 +1,3 @@
-/* Page background */
 
 .signup-page {
   min-height: 100vh;
@@ -8,8 +7,6 @@
   background: #0f172a;
   padding: 40px 20px;
 }
-
-/* Card */
 
 .signup-card {
   background: #111827;
@@ -25,7 +22,6 @@
   transform: translateY(-4px);
 }
 
-/* Title */
 
 .signup-title {
   text-align: center;
@@ -35,7 +31,6 @@
   color: #f1f5f9;
 }
 
-/* Inputs */
 
 .input-group {
   margin-bottom: 20px;
@@ -60,14 +55,12 @@
   transition: 0.3s;
 }
 
-/* Input focus */
 
 .input-group input:focus {
   border: 1px solid #2962ff;
   box-shadow: 0 0 8px rgba(41,98,255,0.4);
 }
 
-/* Button */
 
 .signup-btn {
   width: 100%;
@@ -88,7 +81,6 @@
   transform: scale(1.03);
 }
 
-/* Login link */
 
 .login-text {
   text-align: center;
@@ -107,7 +99,6 @@
   text-decoration: underline;
 }
 
-/* ---------- Tablet ---------- */
 
 @media (max-width: 768px){
 
@@ -121,8 +112,6 @@
 }
 
 }
-
-/* ---------- Mobile ---------- */
 
 @media (max-width:480px){
 

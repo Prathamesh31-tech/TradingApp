@@ -26,7 +26,7 @@ function Stats() {
         </div>
 
         <div className="stats-image">
-          <img src="media/images/ecosystem.png" alt="Trading ecosystem" />
+          <img src="media/images/img3.png" alt="Trading ecosystem" />
         </div>
       </div>
     </div>

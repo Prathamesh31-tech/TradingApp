@@ -6,7 +6,7 @@ function Education() {
       <div className="education-grid">
         <div>
           <img
-            src="media/images/education.svg"
+            src="media/images/img2.png"
             className="education-img"
             alt="education"
           />

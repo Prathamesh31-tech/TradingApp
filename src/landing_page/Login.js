@@ -17,13 +17,25 @@ function Login() {
     e.preventDefault();
 
     try {
-      await axios.post("https://tradingapp-backend-5z66.onrender.com/login", form, {
-        withCredentials: true,
-      });
+      const response = await axios.post(
+        "https://tradingapp-backend-5z66.onrender.com/login",
+        form,
+        { withCredentials: true },
+      );
 
+      // Login successful
       window.location.href = "https://trading-app-dashboard-ten.vercel.app/";
     } catch (error) {
-      alert("Login Failed ❌");
+      // Backend se aaya hua message
+      if (
+        error.response &&
+        error.response.data &&
+        error.response.data.message
+      ) {
+        alert(`Login Failed ❌: ${error.response.data.message}`);
+      } else {
+        alert("Login Failed ❌: Server Error");
+      }
     }
   };
 

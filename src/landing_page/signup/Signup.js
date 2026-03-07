@@ -31,7 +31,7 @@ function Signup() {
       alert("Signup successful 🚀");
       navigate("/login");
     } catch (error) {
-      alert(error);
+      alert("");
     }
   };
 

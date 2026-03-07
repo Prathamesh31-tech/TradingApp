@@ -12,7 +12,7 @@ export default function Universe() {
 
       <div className="row mt-5">
         <div className="col-md-4 col-12 universe-card p-4">
-          <img src="media/images/homeHero.png" />
+          <img src="media/images/homeHero.png" alt="image" />
           <p className="mt-3">
             Real-time trading dashboard showing portfolio performance,
             profit/loss insights and market trends.
@@ -20,7 +20,7 @@ export default function Universe() {
         </div>
 
         <div className="col-md-4 col-12 universe-card p-4">
-          <img src="media/images/analytics.png" />
+          <img src="media/images/analytics.png" alt="image" />
           <p className="mt-3">
             Advanced analytics and charts to help users analyze stocks and make
             better investment decisions.
@@ -28,7 +28,7 @@ export default function Universe() {
         </div>
 
         <div className="col-md-4 col-12 universe-card p-4">
-          <img src="media/images/security.png" />
+          <img src="media/images/security.png" alt="image" />
           <p className="mt-3">
             Secure authentication and transaction system ensuring safe trading
             experience for all users.

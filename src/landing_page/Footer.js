@@ -9,8 +9,6 @@ function Footer() {
         <div className="footer-grid">
           <div className="footer-brand">
             <img src="media/images/logo.png" alt="logo" />
-            <p>© 2010-2024 Trading Platform Pvt Ltd.</p>
-            <p>All rights reserved.</p>
           </div>
 
           <div className="footer-links">
@@ -36,13 +34,6 @@ function Footer() {
             <Link to="/login">Fund Transfer</Link>
             <Link to="/signup">Trading Guide</Link>
           </div>
-        </div>
-
-        <div className="footer-disclaimer">
-          <p>
-            Investments in securities market are subject to market risks. Please
-            read all related documents carefully before investing.
-          </p>
         </div>
 
         <div className="footer-bottom">

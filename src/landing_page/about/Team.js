@@ -1,50 +1,30 @@
 export default function Team() {
   return (
     <div className="container team-section">
-      <h1 className="team-title">Meet Our Team</h1>
-      <div className="team-member">
-        <img src="media/images/photo.png" alt="member" />
-        <div className="team-info">
-          <h4>Ankit Mane</h4>
-          <p className="role">Full Stack Developer</p>
-          <p>
-            Responsible for developing both frontend and backend of the trading
-            platform using the MERN stack.
-          </p>
-        </div>
-      </div>
-      <div className="team-member">
-        <img src="media/images/photo.png" alt="member" />
-        <div className="team-info">
-          <h4>Member Name</h4>
-          <p className="role">Frontend Developer</p>
-          <p>
-            Designed responsive UI components and implemented user-friendly
-            interfaces for the trading dashboard.
-          </p>
-        </div>
-      </div>
+      <h1 className="team-title">About Developer</h1>
 
       <div className="team-member">
-        <img src="media/images/photo.png" alt="member" />
-        <div className="team-info">
-          <h4>Member Name</h4>
-          <p className="role">Backend Developer</p>
-          <p>
-            Developed REST APIs, authentication system, and server logic for
-            secure data handling.
-          </p>
-        </div>
-      </div>
+        <img src="media/images/photo.png" alt="Prathamesh" />
 
-      <div className="team-member">
-        <img src="media/images/photo.png" alt="member" />
         <div className="team-info">
-          <h4>Member Name</h4>
-          <p className="role">Database & Testing</p>
+          <h4>Prathamesh Chaudhari</h4>
+          <p className="role">Full Stack Developer (MERN)</p>
+
           <p>
-            Managed MongoDB database design and performed testing to ensure
-            system reliability.
+            I am a passionate Full Stack Developer specializing in building
+            scalable and high-performance web applications using the MERN stack
+            (MongoDB, Express.js, React.js, Node.js).
+          </p>
+
+          <p>
+            This trading platform is a personal project where I have designed
+            and developed the complete system including frontend UI, backend
+            APIs, authentication, and database architecture.
+          </p>
+
+          <p>
+            I focus on creating secure, user-friendly, and efficient solutions
+            with modern technologies and best coding practices.
           </p>
         </div>
       </div>
